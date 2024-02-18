@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700">
+      <div className="w-full max-w-xl mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700">
         <h1 className="text-center text-white mb-4">Password Generator</h1>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
@@ -90,7 +90,7 @@ function App() {
                 setSpecialChars((prev) => !prev);
               }}
             />
-            <label htmlFor="characterInput">Characters</label>
+            <label htmlFor="characterInput">Special Characters</label>
           </div>
         </div>
       </div>
